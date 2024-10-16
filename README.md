@@ -9,4 +9,4 @@ estructura básica de una página web y prepararla para futuras mejoras con CSS 
 JavaScript.
 
 ## teconologia que se usaron, intengrantes del proyecto, donde sacamos la info del prpyecto
-
+DIFIIIIIIICIL CHE
