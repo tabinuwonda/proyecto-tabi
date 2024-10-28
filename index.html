@@ -21,9 +21,13 @@
       sizes="16x16"
       href="./IMG/favicon-16x16.png"
     />
+
+
     <link rel="stylesheet" href="./CSS/style.css" />
 
     <title>Escuela de Movimiento</title>
+
+
   </head>
 
 
@@ -32,48 +36,51 @@
   <body>
 
     <header>
-      <img
-        src="./img/logo sin fondo.png"
-        width="200"
-        height=""
-        alt="Un dibujo de un Plomero"
-      />
-      <h1>Escuela de movimiento Biodesk</h1>
-      <h2>Especializada en <strong>OfficeDesk</strong></h2>
-      <h3>Sanchez dee Bustamante 158. CABA. Argentina
-        <br>
-        +54 911 4872 5999 / info@escuelabiodesk.com
-      </h3>
+     <div>
+        <img
+          src="./img/logo sin fondo.png"
+          width="200"
+          height=""
+          alt="Un dibujo de un Plomero"
+        />
+        <h1 id="nombrePagina">Escuela de movimiento Biodesk</h1>
+        <h2>Especializada en <strong>OfficeDesk</strong></h2>
+        <h3>Sanchez dee Bustamante 158. CABA. Argentina
+          <br>
+          +54 911 4872 5999 / info@escuelabiodesk.com
+        </h3>
+      </div> 
     </header>
-
+    
 
     <nav>
-      
-      <a href="./index.html" 
-      class="noEnlace">INICIO</a>
+      <div>
+        <a href="./index.html" 
+        >INICIO</a>
 
-      <a href="./clases.html" 
-          class="noEnlace">NUESTRAS CLASES</a>
+        <a href="./clases.html" 
+            >NUESTRAS CLASES</a>
 
-      <ul id="sinVinieta"  > CURSOS
-        <!--LISTA DESORDENADA -->
-        <li>
-          <a href="./nivel1.html" 
-          class="noEnlace">Formación anticalambres nivel 1</a>
-        </li>
-        <li>
-          <a href="./nivel2.html" 
-          class="noEnlace">Formación anticalambres nivel 2</a>
-        </li>   
-        <li>
-          <a href="./antiestress.html" 
-          class="noEnlace">Programa antiestrés</a>
-        </li>      
-      </ul>
+        <ul id="sinVinieta"  > CURSOS
+          <!--LISTA DESORDENADA -->
+          <li>
+            <a href="./nivel1.html" 
+            >Formación anticalambres nivel 1</a>
+          </li>
+          <li>
+            <a href="./nivel2.html" 
+            >Formación anticalambres nivel 2</a>
+          </li>   
+          <li>
+            <a href="./antiestress.html" 
+            >Programa antiestrés</a>
+          </li>      
+        </ul>
 
-      <a href="#reseñas">RESEÑAS</a>
-      <a href="contacto.html" target="_blank" class="noEnlace">Contacto</a>
-      
+        <a href="#reseñas" >RESEÑAS</a>
+        <a href="contacto.html" target="_blank" >Contacto</a>
+
+      </div>  
     </nav>
 
 
@@ -113,25 +120,42 @@
             En este vídeo te mostramos un resumen de cómo son nuestras clases.
             <br />
             ¡Tenemos una gran variedad!
+            <br>
+            <br>
           </p>
         </article>
       </section>
 
+
+
+
       <section>
-        <h2>RESEÑAS</h2>
+        <div>
+          <h2>RESEÑAS</h2>
 
-        <h3>Juan Carlos 32 años</h3>
-        <img
-          src="https://media.istockphoto.com/id/1396489606/es/foto/hombre-trabajando-en-un-escritorio-de-pie.jpg?b=1&s=612x612&w=0&k=20&c=S86BGtUUOQSiaAhQO3G5N3cAwFibOT4GtbI7UITmF0w="
-          alt="Lorem Picsum"
-        />
+          <h3>Juan Carlos 32 años</h3>
+        
+          <picture >
+            <!-- <source media="(min-width:300px)" srcset="./IMG/face1.jpg">
+            <source media="(min-width:220px)" srcset="./IMG/face1.jpg"> -->
+            <img src="./IMG/face1.jpg" alt="cara de Maria" style="width:auto;" class="foto1Tamaño" >
+          </picture> 
 
-        <p>
-          Gracias a las clases de streching he mejorado la postura y he podido tener una mejor concentración y eficiencia a la hora de trabajar.
-        </p>
-       
+
+
+
+          <p>
+            Gracias a las clases de streching he mejorado la postura y he podido tener una mejor concentración y eficiencia a la hora de trabajar.
+          </p>
+        </div>
       </section>
     </main>
+
+
+
+
+
+
 
     <section>
       <h2>Glosario</h2>
@@ -146,15 +170,23 @@
       </dl>
     </section>
 
+
+
     <aside>
-      <h2>Sección 3</h2>
+      <!-- Publicidad puede haber en varios lados -->
+      <!-- NO RELACIONADO CON EL CONTENIDO, ULTIMAS NOTICIAS, ANTERIORES BLOGS -->
+      <h2>Publicidad</h2>
       <p>
-        Lorem ipsum <strong>dolor</strong> sit amet <em>cursiva</em> adipisicing
-        elit. Minima, facere?
+        Lorem ipsum <strong>dolor</strong> sit amet
+        <em>consectetur</em> adipisicing elit. Minima, facere?
       </p>
     </aside>
 
-    <footer>
+
+
+
+
+    <section>
       <p>UBICACIÓN:</p>
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d176864.43787933516!2d-58.581309513447735!3d-34.543882266893746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaf526f945bf%3A0x676a2a6ed7add76f!2sEscuela%20de%20Danza%20Contempor%C3%A1nea%20Arte%20XXI!5e0!3m2!1ses!2sar!4v1729546333246!5m2!1ses!2sar"
@@ -166,8 +198,16 @@
         referrerpolicy="no-referrer-when-downgrade"
       ></iframe>
       <br>
-      <small>Escuela Biodesk -  Escuela de movimiento © 2024 | Todos los derechos reservados</small>
+      
 
+    </section>
+
+    <footer>
+      <i class="fa-brands fa-instagram sizeIcono"></i>
+      <small>Escuela Biodesk -  Escuela de movimiento © 2024 | Todos los derechos reservados</small>
     </footer>
+
+
+    <script src="https://kit.fontawesome.com/689ecfbe4b.js" crossorigin="anonymous"></script>
   </body>
 </html>
